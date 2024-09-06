@@ -13,6 +13,7 @@ OBJS = $(SRCS:.cpp=.o)
 
 all:
 	$(TARGET)
+
 g++: 
 #コンパイル
 	g++ -c mylib.cpp -o mylib.o
